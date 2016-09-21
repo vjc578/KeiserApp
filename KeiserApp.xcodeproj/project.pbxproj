@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5A590E1D9346A600A2AEA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A590D1D9346A600A2AEA4 /* main.m */; };
+		DD5A59111D9346A600A2AEA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A59101D9346A600A2AEA4 /* AppDelegate.m */; };
+		DD5A59141D9346A600A2AEA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A59131D9346A600A2AEA4 /* ViewController.m */; };
+		DD5A59171D9346A700A2AEA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A59151D9346A700A2AEA4 /* Main.storyboard */; };
+		DD5A59191D9346A700A2AEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A59181D9346A700A2AEA4 /* Assets.xcassets */; };
+		DD5A591C1D9346A700A2AEA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A591A1D9346A700A2AEA4 /* LaunchScreen.storyboard */; };
+		DD5A59271D9346A700A2AEA4 /* KeiserAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A59261D9346A700A2AEA4 /* KeiserAppTests.m */; };
+		DD5A59321D9346A700A2AEA4 /* KeiserAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A59311D9346A700A2AEA4 /* KeiserAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5A59231D9346A700A2AEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5A59011D9346A500A2AEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5A59081D9346A500A2AEA4;
+			remoteInfo = KeiserApp;
+		};
+		DD5A592E1D9346A700A2AEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5A59011D9346A500A2AEA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5A59081D9346A500A2AEA4;
+			remoteInfo = KeiserApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5A59091D9346A600A2AEA4 /* KeiserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeiserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5A590D1D9346A600A2AEA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5A590F1D9346A600A2AEA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD5A59101D9346A600A2AEA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD5A59121D9346A600A2AEA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD5A59131D9346A600A2AEA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD5A59161D9346A700A2AEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD5A59181D9346A700A2AEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD5A591B1D9346A700A2AEA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD5A591D1D9346A700A2AEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5A59221D9346A700A2AEA4 /* KeiserAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeiserAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5A59261D9346A700A2AEA4 /* KeiserAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeiserAppTests.m; sourceTree = "<group>"; };
+		DD5A59281D9346A700A2AEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5A592D1D9346A700A2AEA4 /* KeiserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeiserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5A59311D9346A700A2AEA4 /* KeiserAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeiserAppUITests.m; sourceTree = "<group>"; };
+		DD5A59331D9346A700A2AEA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5A59061D9346A500A2AEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A591F1D9346A700A2AEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A592A1D9346A700A2AEA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5A59001D9346A500A2AEA4 = {
+			isa = PBXGroup;
+			children = (
+				DD5A590B1D9346A600A2AEA4 /* KeiserApp */,
+				DD5A59251D9346A700A2AEA4 /* KeiserAppTests */,
+				DD5A59301D9346A700A2AEA4 /* KeiserAppUITests */,
+				DD5A590A1D9346A600A2AEA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5A590A1D9346A600A2AEA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A59091D9346A600A2AEA4 /* KeiserApp.app */,
+				DD5A59221D9346A700A2AEA4 /* KeiserAppTests.xctest */,
+				DD5A592D1D9346A700A2AEA4 /* KeiserAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5A590B1D9346A600A2AEA4 /* KeiserApp */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A590F1D9346A600A2AEA4 /* AppDelegate.h */,
+				DD5A59101D9346A600A2AEA4 /* AppDelegate.m */,
+				DD5A59121D9346A600A2AEA4 /* ViewController.h */,
+				DD5A59131D9346A600A2AEA4 /* ViewController.m */,
+				DD5A59151D9346A700A2AEA4 /* Main.storyboard */,
+				DD5A59181D9346A700A2AEA4 /* Assets.xcassets */,
+				DD5A591A1D9346A700A2AEA4 /* LaunchScreen.storyboard */,
+				DD5A591D1D9346A700A2AEA4 /* Info.plist */,
+				DD5A590C1D9346A600A2AEA4 /* Supporting Files */,
+			);
+			path = KeiserApp;
+			sourceTree = "<group>";
+		};
+		DD5A590C1D9346A600A2AEA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A590D1D9346A600A2AEA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5A59251D9346A700A2AEA4 /* KeiserAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A59261D9346A700A2AEA4 /* KeiserAppTests.m */,
+				DD5A59281D9346A700A2AEA4 /* Info.plist */,
+			);
+			path = KeiserAppTests;
+			sourceTree = "<group>";
+		};
+		DD5A59301D9346A700A2AEA4 /* KeiserAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD5A59311D9346A700A2AEA4 /* KeiserAppUITests.m */,
+				DD5A59331D9346A700A2AEA4 /* Info.plist */,
+			);
+			path = KeiserAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5A59081D9346A500A2AEA4 /* KeiserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5A59361D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserApp" */;
+			buildPhases = (
+				DD5A59051D9346A500A2AEA4 /* Sources */,
+				DD5A59061D9346A500A2AEA4 /* Frameworks */,
+				DD5A59071D9346A500A2AEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeiserApp;
+			productName = KeiserApp;
+			productReference = DD5A59091D9346A600A2AEA4 /* KeiserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD5A59211D9346A700A2AEA4 /* KeiserAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5A59391D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserAppTests" */;
+			buildPhases = (
+				DD5A591E1D9346A700A2AEA4 /* Sources */,
+				DD5A591F1D9346A700A2AEA4 /* Frameworks */,
+				DD5A59201D9346A700A2AEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5A59241D9346A700A2AEA4 /* PBXTargetDependency */,
+			);
+			name = KeiserAppTests;
+			productName = KeiserAppTests;
+			productReference = DD5A59221D9346A700A2AEA4 /* KeiserAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD5A592C1D9346A700A2AEA4 /* KeiserAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5A593C1D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserAppUITests" */;
+			buildPhases = (
+				DD5A59291D9346A700A2AEA4 /* Sources */,
+				DD5A592A1D9346A700A2AEA4 /* Frameworks */,
+				DD5A592B1D9346A700A2AEA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5A592F1D9346A700A2AEA4 /* PBXTargetDependency */,
+			);
+			name = KeiserAppUITests;
+			productName = KeiserAppUITests;
+			productReference = DD5A592D1D9346A700A2AEA4 /* KeiserAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5A59011D9346A500A2AEA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Vinay Chaudhary";
+				TargetAttributes = {
+					DD5A59081D9346A500A2AEA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BL8R8H3PBW;
+						ProvisioningStyle = Automatic;
+					};
+					DD5A59211D9346A700A2AEA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BL8R8H3PBW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD5A59081D9346A500A2AEA4;
+					};
+					DD5A592C1D9346A700A2AEA4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = BL8R8H3PBW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD5A59081D9346A500A2AEA4;
+					};
+				};
+			};
+			buildConfigurationList = DD5A59041D9346A500A2AEA4 /* Build configuration list for PBXProject "KeiserApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD5A59001D9346A500A2AEA4;
+			productRefGroup = DD5A590A1D9346A600A2AEA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5A59081D9346A500A2AEA4 /* KeiserApp */,
+				DD5A59211D9346A700A2AEA4 /* KeiserAppTests */,
+				DD5A592C1D9346A700A2AEA4 /* KeiserAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5A59071D9346A500A2AEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A591C1D9346A700A2AEA4 /* LaunchScreen.storyboard in Resources */,
+				DD5A59191D9346A700A2AEA4 /* Assets.xcassets in Resources */,
+				DD5A59171D9346A700A2AEA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A59201D9346A700A2AEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A592B1D9346A700A2AEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5A59051D9346A500A2AEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A59141D9346A600A2AEA4 /* ViewController.m in Sources */,
+				DD5A59111D9346A600A2AEA4 /* AppDelegate.m in Sources */,
+				DD5A590E1D9346A600A2AEA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A591E1D9346A700A2AEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A59271D9346A700A2AEA4 /* KeiserAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD5A59291D9346A700A2AEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5A59321D9346A700A2AEA4 /* KeiserAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5A59241D9346A700A2AEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5A59081D9346A500A2AEA4 /* KeiserApp */;
+			targetProxy = DD5A59231D9346A700A2AEA4 /* PBXContainerItemProxy */;
+		};
+		DD5A592F1D9346A700A2AEA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD5A59081D9346A500A2AEA4 /* KeiserApp */;
+			targetProxy = DD5A592E1D9346A700A2AEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5A59151D9346A700A2AEA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5A59161D9346A700A2AEA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5A591A1D9346A700A2AEA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5A591B1D9346A700A2AEA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5A59341D9346A700A2AEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD5A59351D9346A700A2AEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5A59371D9346A700A2AEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD5A59381D9346A700A2AEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD5A593A1D9346A700A2AEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeiserApp.app/KeiserApp";
+			};
+			name = Debug;
+		};
+		DD5A593B1D9346A700A2AEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeiserApp.app/KeiserApp";
+			};
+			name = Release;
+		};
+		DD5A593D1D9346A700A2AEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeiserApp;
+			};
+			name = Debug;
+		};
+		DD5A593E1D9346A700A2AEA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BL8R8H3PBW;
+				INFOPLIST_FILE = KeiserAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vchaudhary.KeiserAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KeiserApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5A59041D9346A500A2AEA4 /* Build configuration list for PBXProject "KeiserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A59341D9346A700A2AEA4 /* Debug */,
+				DD5A59351D9346A700A2AEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5A59361D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A59371D9346A700A2AEA4 /* Debug */,
+				DD5A59381D9346A700A2AEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5A59391D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A593A1D9346A700A2AEA4 /* Debug */,
+				DD5A593B1D9346A700A2AEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD5A593C1D9346A700A2AEA4 /* Build configuration list for PBXNativeTarget "KeiserAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5A593D1D9346A700A2AEA4 /* Debug */,
+				DD5A593E1D9346A700A2AEA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5A59011D9346A500A2AEA4 /* Project object */;
+}
