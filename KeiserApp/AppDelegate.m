@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KKManager.h"
 
 @interface AppDelegate ()
 
